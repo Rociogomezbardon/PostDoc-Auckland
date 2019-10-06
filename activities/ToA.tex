@@ -1,0 +1,345 @@
+\documentclass[11pt, oneside]{article}   
+\usepackage{geometry}   
+\geometry{a4paper}                   		
+\usepackage{graphicx}				
+\usepackage{float}
+
+\usepackage{amssymb,amsmath,mathtools}
+\usepackage{wrapfig}
+
+
+\title{Theory of Activities}
+
+\def\-{\raisebox{.75pt}{-}}
+\def\:-{\raisebox{.75pt}{\ :\,-\ }}
+\allowdisplaybreaks
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\begin{document}
+\maketitle
+
+\section{The Physical Domain}
+The domain has four rooms located side by side ($library$, $kitchen$, $office1$ and
+$office2$) and connected. The robot $rob_1$,
+can move from one room to the next. A $secure$ room can be $locked$ or $unlocked$. The robot cannot move to or from
+a locked room; it can $unlock$ a locked room. The domain objects
+can be located in any of the rooms. The robot can $pickup$ an
+object if is in the same location as the object, it can
+$put\_down$ an object that it is holding and it can only hold
+one object at a time. There are two exogenous actions, one
+that can change the location of any object, and one that can
+lock a secure room. The agent may not be aware of these
+exogenous action when they happen. We are also going to define three different 
+defined fluents, two of which we will be using as possible goals. 
+
+\subsection{AL}
+Sorts:
+\begin{align*}
+  &secure\_room = \{library\}.\\
+  &room = secure\_room\ +\{kitchen, office_1, office_2\}.\\
+  &robot = \{rob_1\}.\\
+  &book = \{book_1, book_2\}.\\
+  &object = book.\\
+  &thing = object\ +\ robot.
+\end{align*}
+
+Static relations:
+\begin{align*}
+  &next\_to(office_1,office_2).\\
+  &next\_to(kitchen,office_1).\\
+  &next\_to(library,kitchen).
+  \end{align*}
+
+Inertial fluents:
+\begin{align*}
+  &inertial\_fluent = loc(thing, room) + in\_hand(robot,object) + locked(secure\_room).
+  \end{align*}
+
+Possible goals:
+\begin{align*}
+&possible\_goal = tidy\_all(room) + tidy\_book(book,room).
+\end{align*}
+
+Defined fluents:
+\begin{align*}
+ &defined\_fluent = possible\_goal + missing\_book(room).
+\end{align*}
+
+Robot actions:
+\begin{align*}
+  &move(robot, room).\\
+  &pickup(robot,object).\\
+  &put\_down(robot,object).\\
+  &unlock(robot,secure\_room).
+\end{align*}
+
+Exogenous actions:
+\begin{align*}
+  &exo\_move(object, room).\\
+  &exo\_lock(secure\_room).
+\end{align*} 
+
+Causal Laws:
+\begin{align*}
+  move(R,L)\quad \mathbf{causes}&\quad loc(R,L)\\
+  pickup(R,O)\quad \mathbf{causes}&\quad in\_hand(R,O). \\
+  put\_down(R,O)\quad \mathbf{causes}&\quad \neg in\_hand(R,O).\\
+  unlock(R,L)\quad \mathbf{causes}&\quad \neg locked(L).\\
+  exo\_lock(L)\quad \mathbf{causes}&\quad locked(L).\\
+  exo\_move(O,L)\quad \mathbf{causes}&\quad loc(O,L).\\
+\end{align*}
+
+
+State Constraints:
+\begin{align*}
+  next\_to(L1,L2)\quad \mathbf{if}&\quad next\_to(L2,L1).\\
+  \neg loc(T, L2)\quad \mathbf{if}&\quad loc(T, L1), ~L1 \neq L2.\\
+  loc(O, L)\quad \mathbf{if}&\quad loc(R, L),~in\_hand(R,O).\\
+  \neg in\_hand(R,O1)\quad \mathbf{if}&\quad in\_hand(R,O2),~ O1 \neq O2.
+\end{align*}
+
+Executability Conditions:
+\begin{align*}
+  \mathbf{impossible}\quad move(R, L)~~\mathbf{if}&\quad loc(R,L).\\
+  \mathbf{impossible}\quad move(R, L2)~~\mathbf{if}&\quad loc(R,L1),~\neg next\_to(L1,L2).\\
+  \mathbf{impossible}\quad move(R,L2)~~\mathbf{if}&\quad loc(R,L1),~locked(L1).\\
+  \mathbf{impossible}\quad move(R,L)~~\mathbf{if}&\quad locked(L).\\
+  \mathbf{impossible}\quad unlock(R, L)~~\mathbf{if}&\quad \neg locked(L).\\
+  \mathbf{impossible}\quad unlock(R, L1)~~\mathbf{if}&\quad loc(R,L2),~\neg next\_to(L2,L1),~L2\neq L1.\\
+  \mathbf{impossible}\quad put\_down(R,O)~~\mathbf{if}&\quad \neg in\_hand(R,O).\\
+  \mathbf{impossible}\quad pickup(R,O1)~~\mathbf{if}&\quad in\_hand(R,O2).\\
+  \mathbf{impossible}\quad pickup(R,O)~~\mathbf{if}&\quad loc(R,L1),~loc(O,L2),~L1 \neq L2.\\
+  \mathbf{impossible}\quad exo\_move(O,L)~~\mathbf{if}&\quad loc(O,L)\\
+  \mathbf{impossible}\quad exo\_move(O,L)~~\mathbf{if}&\quad locked(L).\\
+  \mathbf{impossible}\quad exo\_move(O,L2)~~\mathbf{if}&\quad loc(O,L1), locked(L1).\\
+  \mathbf{impossible}\quad exo\_move(O,L)~~\mathbf{if}&\quad in\_hand(R,O).\\
+  \mathbf{impossible}\quad exo\_lock(L)~~\mathbf{if}&\quad locked(L).
+\end{align*}
+
+
+
+
+
+\subsection{The Theory of Activities}
+In our $ToA$ domain of our agent will also have a list of $possible\ goals$ and one of them will be selected. The agent will need to specify one or more $activities$ that would achieve the selected goal. He may have a list or different existing activites. If there are existing activities that achieve the goal, the agent will choose and return one of those activites. If the agent cannot find a successfull existing $activity$, he will create and return one. If he cannot use or create a successfull $activity$,  the goal will be considered futile. 
+
+An $activity$ will be represented by a triple consisting on $name$, $plan$ and $goal$. A $name$ is a unique identifier used to refer to the $activity$, and a plan is a sequence of agent actions, which will lead to the realisation of the $goal$. 
+ 
+We limit the names of activities to a collection of integers ($1\dots max\_name$), the length of plans to a maximum length ($1\dots max\_len$). The fluents of the physical environment that may serve as a $goal$ are those of the sort $possible\_goal$. 
+
+In order to create the Action Language for the new domain, we will 1-adapt and 2-extend the original Action Language for the physical domain.
+We will adapt it by re-defining the sort $inertial\_fulent$ as $physical\_inertial\_fluens$, $defined\_fluents$ as $physical\_defined\_fluents$, and the sort $agent\_action$ as $physical\_agent\_action$. We will define the following new sorts: 
+\begin{itemize}
+	\item A sort $activity\_name = {1,\dots, max\_name}$ to represent the name of an $activity$.	
+	\item A sort $index = \{-1,0,max\_len\}$ to represent the index of an action as part of an $activity$. 
+	\item A sort $mental\_agent\_action = \{select\_activity(activity\_name)\}$ to represent the action of choosing and activity.
+	\item A sort $mental\_inertial\_fluent = \{current\_aciton\_index(activity\_name, index)\}$  to represent the current (mental) state of an $activity$. 
+	\item A sort $mental\_defined\_fluent = \{next\_action(activity\_name, action) \}$ 
+\end{itemize}
+We also the following relations that give shape to the concept of $activity$. 	
+	\begin{align*}
+	&activity\_component(activity\_name, index, physical\_agent\_action).\\
+	&activity\_length(activity\_name, index).\\
+	&activity\_goal(activity\_name, possible\_goal).
+	\end{align*}
+	
+We create a hierarchical structure of $fluents$ and $actions$ as follows: 
+\begin{align*}
+&inertial\_fluent = physical\_inertial\_fluent + mental\_inertial\_fluent, \\
+&fluent = defined\_fluent + inertial\_fluent, \\
+&agent\_action = mental\_agent\_action + physical\_agent\_action, \\
+&action = agent\_action + exo\_action.
+\end{align*}
+As well as the previous statements included in the physical domain, we will include:
+	
+Causal Laws:
+\begin{align}\begin{split}
+ select\_activity(AN)\quad &\mathbf{causes} \quad current\_action\_index(AN, 0). \\
+\end{split}\end{align}
+\begin{align}\begin{split}
+PAA\quad \mathbf{causes} \quad current\_action\_index(AN, K+1)\quad \mathbf{if}\quad &next\_action(AN, PAA), \\
+&current\_action\_index(AN, K),\\
+&activity\_component(AN, K+1, PAA).
+\end{split}\end{align}
+
+State Constraints:
+\begin{align}\begin{split}
+\neg current\_action\_index(AN, K1)  \quad  \mathbf{if}\quad & current\_action\_index(AN, K2), \\
+\quad & K1\neq K2.
+\end{split}\end{align}
+\begin{align}\begin{split}
+next\_action(AN, PAA)\quad \mathbf{if}\quad & current\_action\_index(AN, K),\\
+&activity\_component(AN, K+1, PAA).
+\end{split}\end{align}
+\begin{align}\begin{split}
+tidy\_book(B,R) \quad \mathbf{if}\quad & loc(B,R), \neg in\_hand(B).\\
+missing\_book(R) \quad \mathbf{if}\quad &\neg tidy\_book(B,R).\\
+tidy\_all(R) \quad \mathbf{if}\quad & not\ missing\_book(R).
+\end{split}\end{align}
+\begin{align}\begin{split}
+\neg selected\_goal(G1) \quad \mathbf{if}\quad &selected\_goal(G2),\\&G1\neq G2.
+\end{split}\end{align}
+
+
+Initial State Constraint:
+\begin{align}\begin{split}
+current\_action\_index(AN,-1)
+\end{split}\end{align}
+
+
+\section{The Architecture: Reasoning Tasks and Behaviour.} 
+\subsection{Introducing new relations}
+The axioms that need to be added to the ASP program also involve the following relations:
+\begin{itemize}
+\item $impossible(A, I)$ means that action A is impossible at step I.
+\item $candidate(AN)$ means that AN is a candidate for the next activity to be started to achieve the selected goal.
+\item $existing\_candidate(AN)$ means that AN is an existing candidate for the activity to achieve the selected goal.
+\item $new\_candidate(AN)$ means that AN is newly created candidate for the activity to achieve the selected goal.
+\item $has\_component(AN, K)$ means that activity AN has a component at index K.
+\item $needs\_new\_activity$ flag that means that no successful existing activity has been found in the previous run.
+\item $next\_available\_name$ will hold the next number that can be used as a name for a newly created activity.
+\end{itemize}
+
+
+
+\subsection{Translating AL to ASP}
+The following steps should be followed in order to translate the AL description into an ASP program.\\
+\\
+For every causal law: $a$ \textbf{causes} l \textbf{if} $p_0, \dots, p_m$\\
+Tthe ASP contains: $holds(l, I+1) \:- holds(p_0, I), \dots, holds(p_m, I), occurs(a, I).$\par
+
+For every state constraint: $l$ \textbf{if} $p_0, \dots, p_m$\\
+the ASP contains $holds(l, I) \:- holds(p_0, I), \dots, holds(p_m, I).$\par
+
+The ASP contains the CWA for defined fluents:\\
+$\-holds(F, I) \:- \#defined\_fluent(F),\ not\  holds(F, I).$\par
+
+For every executability condition: \textbf{impossible} $a$ \textbf{if} $p_0, \dots, p_m$\\
+the ASP contains: $impossible(a, I) \:- holds(p_0, I), \dots, holds(p_m, I).$\\
+It also contains: $\-occurs(A, I) \:- impossible(A, I).$\par
+
+The ASP contains the inertia axioms:\\
+$holds(F, I+1) \:- holds(F, I),\ not\  \-holds(F, I+1).$\\
+
+$\-holds(f, I+1) \:-\ \-holds(F, I),\ not\  holds(F, I+1).$\par
+
+The ASP contains the CWA for actions:\\
+$\-occurs(A, I) \:-\ not\  occurs(A, I).$\\
+\\
+Once translation using the above steps has been completed, the axioms in the following section will also need to be added to the ASP program.
+
+
+\subsection{Reasoning Axioms}
+Defining candidates:
+
+The flag $need\_new\_candidate$ will trigger the creating of a new candidate:
+\begin{align}\begin{split}
+new\_candidate(AN) \quad \leftarrow \quad 
+&needs\_new\_activity.\\
+\end{split}\end{align}
+\begin{align}\begin{split}
+existing\_candidate(AN) \quad \leftarrow \quad 
+&activity\_goal(AN,G),\\
+&selected\_goal(G),\\
+&not\ new\_candidate(AN).
+\end{split}\end{align}
+\begin{align}\begin{split}
+candidate(AN) \quad \leftarrow \quad 
+&new\_candidate(AN).\\
+candidate(AN) \quad \leftarrow \quad 
+&existing\_candidate(AN).
+\end{split}\end{align}
+
+Creating new activities:
+\begin{align}\begin{split}
+activity\_goal(AN,G) \quad \leftarrow \quad
+&new\_candidate(AN),\\
+&selected\_goal(G).
+\end{split}\end{align}
+\begin{align}\begin{split}
+activity\_component(AN,I, PAA) \quad \leftarrow \quad 
+&new\_candidate(AN),\\
+&occurs(select\_activity(AN),0),\\
+&occurs(PAA,I),\\
+&0<I.
+\end{split}\end{align}
+\begin{align}\begin{split}
+ \leftarrow \quad &new\_candidate(AN),\\
+&activity\_component(AN,K,PAA1),\\
+&activity\_component(AN,K,PAA2),\\
+&PAA1\neq PAA2.
+\end{split}\end{align}
+\begin{align}\begin{split}
+has\_component(AN,K)\quad \leftarrow \quad 
+&new\_candidate(AN),\\
+&occurs(select\_activity(AN),0),\\
+&activity\_component(AN,K,C).
+\end{split}\end{align}
+\begin{align}\begin{split}
+activity\_length(AN,K) \quad \leftarrow \quad
+&new\_candidate(AN),\\
+&occurs(select\_activity(AN),0),\\
+&has\_component(AN,K),\\
+&not\ has\_component(AN,K+1).
+\end{split}\end{align}
+
+
+
+Selecting candidates:
+If it is not impossible to select a candidate, it will be selected.
+\begin{align}\begin{split}
+occurs(select\_activity(AN),0) \quad \leftarrow \quad 
+&candidate(AN),\\
+&not\ impossible(select\_activity(AN),0).
+\end{split}\end{align}
+
+It is impossible to select an activity at any step other than 0, it is impossible to select an activity if it is not a candidate, and it is impossible to select two different activities .
+
+\begin{align}\begin{split}
+impossible(select\_activity(AN1),0) \quad \leftarrow \quad &occurs(select\_activity(AN2),0),\\ &AN1\neq AN2.\\
+impossible(select\_activity(AN),0) \quad \leftarrow \quad &not\ candidate(AN).\\
+impossible(select\_activity(AN),I) \quad \leftarrow \quad &0<I.\\
+impossible(select\_activity(AN),I) \quad \leftarrow \quad &activity\_goal(AN,G),\\ &holds(G,0).
+\end{split}\end{align}
+
+
+
+This rule ensures that the selected exisiting activity is the minimal activity that reaches the goal:
+\begin{align}\begin{split}
+occurs(PAA,I) \quad \stackrel{\mathclap{\scriptsize\mbox{+}}}{\leftarrow}  \quad 
+&existing\_candidate(AN),\\
+&occurs(select\_activity(AN),0),\\
+&holds(next\_action(AN,PAA),I),\\
+&occurs(A,I-1),\\
+&0<I.
+\end{split}\end{align}
+
+
+This rule ensures that the newly created activity is the minimal activity that reaches the goal:
+\begin{align}\begin{split}
+occurs(PAA,I) \quad \stackrel{\mathclap{\scriptsize\mbox{+}}}{\leftarrow}  \quad 
+&new\_candidate(AN),\\
+&occurs(select\_activity(AN),0),\\
+&occurs(A,I-1),\\
+&0<I.
+\end{split}\end{align}
+
+
+Planning module:
+\begin{align}\begin{split}
+success \quad \leftarrow \quad &holds(G,I),\ selected\_goal(G).\\
+\leftarrow \quad &not\ success.
+\end{split}\end{align}
+
+
+ 
+ 
+
+% \medskip
+%\bibliographystyle{abbrv}
+%\bibliography{IntentionalAgents}
+ 
+ 
+ 
+\end{document}

@@ -1,0 +1,84 @@
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Running Scenario 1
+Goal: holds(loc(book_1,library),I), holds(loc(book_2,library),I), -holds(in_hand(rob,book_1),I), -holds(in_hand(rob,book_2),I) .
+Initial World State: {'loc(rob': 'office_1', 'on_shelf(book_2': 'bookshelf_1', 'loc(cup_1': 'office_1', 'on_shelf(cup_2': 'bookshelf_1', 'in_hand(rob': 'book_1'}
+Achieved goal ToI: T
+
+History World: 
+move(rob,library)
+exo_move(cup_2,library)
+put_on_shelf(rob,book_1,bookshelf_L)
+move(rob,office_1)
+pickup(rob,book_2)
+move(rob,library)
+put_on_shelf(rob,book_2,bookshelf_L)
+
+History ToI: 
+obs(loc(rob,office_1),true,0)
+obs(loc(rob,office_1),true,0)
+obs(loc(cup_2,office_1),true,0)
+obs(loc(cup_1,office_1),true,0)
+obs(loc(book_2,office_1),true,0)
+obs(loc(book_1,office_1),true,0)
+obs(in_hand(rob,cup_2),false,0)
+obs(in_hand(rob,cup_1),false,0)
+obs(in_hand(rob,book_2),false,0)
+obs(in_hand(rob,book_1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+attempt(move(rob,library),2)
+obs(loc(rob,library),true,3)
+obs(loc(book_2,library),false,3)
+obs(loc(book_1,library),true,3)
+obs(in_hand(rob,book_2),false,3)
+obs(in_hand(rob,book_1),true,3)
+obs(in_hand(rob,book_1),true,3)
+attempt(put_on_shelf(rob,book_1,bookshelf_L),3)
+obs(loc(book_2,library),false,4)
+obs(loc(book_1,library),true,4)
+obs(in_hand(rob,book_2),false,4)
+obs(in_hand(rob,book_1),false,4)
+attempt(move(rob,office_1),4)
+obs(loc(rob,office_1),true,5)
+obs(loc(book_2,office_1),true,5)
+obs(loc(book_1,office_1),false,5)
+obs(in_hand(rob,book_2),false,5)
+obs(in_hand(rob,book_1),false,5)
+attempt(pickup(rob,book_2),5)
+obs(loc(book_2,office_1),true,6)
+obs(loc(book_1,office_1),false,6)
+obs(in_hand(rob,book_2),true,6)
+obs(in_hand(rob,book_1),false,6)
+attempt(move(rob,library),6)
+obs(loc(rob,library),true,7)
+obs(loc(book_2,library),true,7)
+obs(loc(book_1,library),true,7)
+obs(in_hand(rob,book_2),true,7)
+obs(in_hand(rob,book_2),true,7)
+obs(in_hand(rob,book_1),false,7)
+attempt(put_on_shelf(rob,book_2,bookshelf_L),7)
+obs(loc(book_2,library),true,8)
+obs(loc(book_1,library),true,8)
+obs(in_hand(rob,book_2),false,8)
+obs(in_hand(rob,book_1),false,8)
+
+activity_goal(1,my_goal).
+activity_component(1,1,move(rob,library)).
+activity_component(1,4,pickup(rob,book_2)).
+activity_component(1,2,put_on_shelf(rob,book_1,bookshelf_L)).
+activity_component(1,6,put_on_shelf(rob,book_2,bookshelf_L)).
+activity_component(1,3,move(rob,office_1)).
+activity_component(1,5,move(rob,library)).
+activity_length(1,6).
+finish
+
+Other Relevant Information: 
+
+Reasoning information from step 1: 
+defined_by_default(on_shelf(book_2,bookshelf_1))
+defined_by_default(on_shelf(cup_1,bookshelf_1))
+defined_by_default(on_shelf(cup_2,bookshelf_1))
+defined_by_default(in_hand(rob,book_1))
+
+--------------------------------------------------------------
+

@@ -1,0 +1,17 @@
+Total possible initial condition combinations:
+4 rooms: 192
+5 rooms: 300
+6 rooms: 576
+
+Longest plan: 
+4 rooms: 17 steps
+5 rooms: 21 steps
+6 rooms: 25 steps
+
+Peak-time length plan:
+4 rooms: length 9
+5 rooms: length 11
+6 rooms: length 13
+
+
+

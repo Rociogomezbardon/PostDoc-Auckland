@@ -1,0 +1,2787 @@
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Too many answers at ASP_files/ASP_ToI_Planning.spAchieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,kitchen)
+move(rob1,office1)
+exo_lock(library)
+move(rob1,office2)
+pickup(rob1,book1)
+move(rob1,office1)
+move(rob1,kitchen)
+move(rob1,library) (FAILED) 
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,library),true,3)
+obs(loc(book2,library),false,3)
+obs(loc(book1,library),false,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+attempt(move(rob1,kitchen),3)
+obs(loc(rob1,kitchen),true,4)
+obs(loc(book2,kitchen),true,4)
+obs(loc(book1,kitchen),false,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(stop(1),4)
+attempt(start(2),5)
+attempt(move(rob1,office1),6)
+obs(loc(rob1,office1),true,7)
+obs(loc(book2,office1),false,7)
+obs(loc(book1,office1),false,7)
+obs(in_hand(rob1,book2),false,7)
+obs(in_hand(rob1,book1),false,7)
+attempt(stop(2),7)
+attempt(start(3),8)
+attempt(move(rob1,office2),9)
+obs(loc(rob1,office2),true,10)
+obs(loc(book2,office2),false,10)
+obs(loc(book1,office2),true,10)
+obs(in_hand(rob1,book2),false,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(pickup(rob1,book1),10)
+obs(loc(book2,office2),false,11)
+obs(loc(book1,office2),true,11)
+obs(in_hand(rob1,book2),false,11)
+obs(in_hand(rob1,book1),true,11)
+attempt(move(rob1,office1),11)
+obs(loc(rob1,office1),true,12)
+obs(loc(book2,office1),false,12)
+obs(loc(book1,office1),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(move(rob1,kitchen),12)
+obs(locked(library),true,13)
+obs(loc(rob1,kitchen),true,13)
+obs(loc(book2,kitchen),true,13)
+obs(loc(book1,kitchen),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),true,13)
+attempt(move(rob1,library),13)
+obs(loc(rob1,kitchen),true,14)
+obs(loc(book2,kitchen),true,14)
+obs(loc(book1,kitchen),true,14)
+obs(in_hand(rob1,book2),false,14)
+obs(in_hand(rob1,book1),true,14)
+
+activity_goal(1,my_goal).
+activity_length(1,13).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,kitchen)).
+activity_component(1,3,move(rob1,office1)).
+activity_component(1,4,pickup(rob1,book1)).
+activity_component(1,5,move(rob1,kitchen)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book1)).
+activity_component(1,8,move(rob1,kitchen)).
+activity_component(1,9,move(rob1,office1)).
+activity_component(1,10,pickup(rob1,book2)).
+activity_component(1,11,move(rob1,kitchen)).
+activity_component(1,12,move(rob1,library)).
+activity_component(1,13,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,9).
+activity_component(2,1,move(rob1,office1)).
+activity_component(2,2,pickup(rob1,book1)).
+activity_component(2,3,move(rob1,kitchen)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book1)).
+activity_component(2,6,move(rob1,kitchen)).
+activity_component(2,7,pickup(rob1,book2)).
+activity_component(2,8,move(rob1,library)).
+activity_component(2,9,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,10).
+activity_component(3,1,move(rob1,office2)).
+activity_component(3,2,pickup(rob1,book1)).
+activity_component(3,3,move(rob1,office1)).
+activity_component(3,4,move(rob1,kitchen)).
+activity_component(3,5,move(rob1,library)).
+activity_component(3,6,put_down(rob1,book1)).
+activity_component(3,7,move(rob1,kitchen)).
+activity_component(3,8,pickup(rob1,book2)).
+activity_component(3,9,move(rob1,library)).
+activity_component(3,10,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 0
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+
+activity_goal(1,my_goal).
+activity_length(1,9).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,kitchen)).
+activity_component(1,3,pickup(rob1,book1)).
+activity_component(1,4,move(rob1,library)).
+activity_component(1,5,put_down(rob1,book1)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,pickup(rob1,book2)).
+activity_component(1,8,move(rob1,library)).
+activity_component(1,9,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,kitchen)
+move(rob1,office1)
+exo_lock(library)
+move(rob1,office2)
+pickup(rob1,book1)
+move(rob1,office1)
+move(rob1,kitchen)
+move(rob1,library) (FAILED) 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+move(rob1,kitchen)
+pickup(rob1,book2)
+move(rob1,library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,library),true,3)
+obs(loc(book2,library),false,3)
+obs(loc(book1,library),false,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+attempt(move(rob1,kitchen),3)
+obs(loc(rob1,kitchen),true,4)
+obs(loc(book2,kitchen),true,4)
+obs(loc(book1,kitchen),false,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(stop(1),4)
+attempt(start(2),5)
+attempt(move(rob1,office1),6)
+obs(loc(rob1,office1),true,7)
+obs(loc(book2,office1),false,7)
+obs(loc(book1,office1),false,7)
+obs(in_hand(rob1,book2),false,7)
+obs(in_hand(rob1,book1),false,7)
+attempt(stop(2),7)
+attempt(start(3),8)
+attempt(move(rob1,office2),9)
+obs(loc(rob1,office2),true,10)
+obs(loc(book2,office2),false,10)
+obs(loc(book1,office2),true,10)
+obs(in_hand(rob1,book2),false,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(pickup(rob1,book1),10)
+obs(loc(book2,office2),false,11)
+obs(loc(book1,office2),true,11)
+obs(in_hand(rob1,book2),false,11)
+obs(in_hand(rob1,book1),true,11)
+attempt(move(rob1,office1),11)
+obs(loc(rob1,office1),true,12)
+obs(loc(book2,office1),false,12)
+obs(loc(book1,office1),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(move(rob1,kitchen),12)
+obs(locked(library),true,13)
+obs(loc(rob1,kitchen),true,13)
+obs(loc(book2,kitchen),true,13)
+obs(loc(book1,kitchen),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),true,13)
+attempt(move(rob1,library),13)
+obs(loc(rob1,kitchen),true,14)
+obs(loc(book2,kitchen),true,14)
+obs(loc(book1,kitchen),true,14)
+obs(in_hand(rob1,book2),false,14)
+obs(in_hand(rob1,book1),true,14)
+attempt(stop(3),14)
+attempt(start(4),15)
+obs(locked(library),true,16)
+attempt(unlock(rob1,library),16)
+obs(locked(library),false,17)
+obs(loc(rob1,kitchen),true,17)
+obs(loc(book2,kitchen),true,17)
+obs(loc(book1,kitchen),true,17)
+obs(in_hand(rob1,book2),false,17)
+obs(in_hand(rob1,book1),true,17)
+attempt(move(rob1,library),17)
+obs(loc(rob1,library),true,18)
+obs(loc(book2,library),false,18)
+obs(loc(book1,library),true,18)
+obs(in_hand(rob1,book2),false,18)
+obs(in_hand(rob1,book1),true,18)
+attempt(put_down(rob1,book1),18)
+obs(locked(library),false,19)
+obs(loc(rob1,library),true,19)
+obs(loc(book2,library),false,19)
+obs(loc(book1,library),true,19)
+obs(in_hand(rob1,book2),false,19)
+obs(in_hand(rob1,book1),false,19)
+attempt(move(rob1,kitchen),19)
+obs(loc(rob1,kitchen),true,20)
+obs(loc(book2,kitchen),true,20)
+obs(loc(book1,kitchen),false,20)
+obs(in_hand(rob1,book2),false,20)
+obs(in_hand(rob1,book1),false,20)
+attempt(pickup(rob1,book2),20)
+obs(locked(library),false,21)
+obs(loc(rob1,kitchen),true,21)
+obs(loc(book2,kitchen),true,21)
+obs(loc(book1,kitchen),false,21)
+obs(in_hand(rob1,book2),true,21)
+obs(in_hand(rob1,book1),false,21)
+attempt(move(rob1,library),21)
+obs(loc(rob1,library),true,22)
+obs(loc(book2,library),true,22)
+obs(loc(book1,library),true,22)
+obs(in_hand(rob1,book2),true,22)
+obs(in_hand(rob1,book1),false,22)
+attempt(put_down(rob1,book2),22)
+obs(loc(book2,library),true,23)
+obs(loc(book1,library),true,23)
+obs(in_hand(rob1,book2),false,23)
+obs(in_hand(rob1,book1),false,23)
+
+activity_goal(1,my_goal).
+activity_length(1,13).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,kitchen)).
+activity_component(1,3,move(rob1,office1)).
+activity_component(1,4,pickup(rob1,book1)).
+activity_component(1,5,move(rob1,kitchen)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book1)).
+activity_component(1,8,move(rob1,kitchen)).
+activity_component(1,9,move(rob1,office1)).
+activity_component(1,10,pickup(rob1,book2)).
+activity_component(1,11,move(rob1,kitchen)).
+activity_component(1,12,move(rob1,library)).
+activity_component(1,13,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,9).
+activity_component(2,1,move(rob1,office1)).
+activity_component(2,2,pickup(rob1,book1)).
+activity_component(2,3,move(rob1,kitchen)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book1)).
+activity_component(2,6,move(rob1,kitchen)).
+activity_component(2,7,pickup(rob1,book2)).
+activity_component(2,8,move(rob1,library)).
+activity_component(2,9,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,10).
+activity_component(3,1,move(rob1,office2)).
+activity_component(3,2,pickup(rob1,book1)).
+activity_component(3,3,move(rob1,office1)).
+activity_component(3,4,move(rob1,kitchen)).
+activity_component(3,5,move(rob1,library)).
+activity_component(3,6,put_down(rob1,book1)).
+activity_component(3,7,move(rob1,kitchen)).
+activity_component(3,8,pickup(rob1,book2)).
+activity_component(3,9,move(rob1,library)).
+activity_component(3,10,put_down(rob1,book2)).
+activity_goal(4,my_goal).
+activity_length(4,7).
+activity_component(4,1,unlock(rob1,library)).
+activity_component(4,2,move(rob1,library)).
+activity_component(4,3,put_down(rob1,book1)).
+activity_component(4,4,move(rob1,kitchen)).
+activity_component(4,5,pickup(rob1,book2)).
+activity_component(4,6,move(rob1,library)).
+activity_component(4,7,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'library', 'loc(book2': 'kitchen', 'loc(book1': 'office2'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 1
+
+History World: 
+
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 1
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(in_hand(rob1,book1),true,2)
+attempt(put_down(rob1,book1),2)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+
+activity_goal(1,my_goal).
+activity_length(1,1).
+activity_component(1,1,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 2   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 2
+Achieved goal ToI: T
+Running Scenario 2
+
+History World: 
+unlock(rob1,library)
+exo_move(book2,library)
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 3   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'kitchen', 'in_hand(rob1': 'book1', 'loc(book1': 'kitchen'}
+Initial Conditions Index: 3
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),false,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),false,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(loc(book2,library),true,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+
+activity_goal(1,my_goal).
+activity_length(1,3).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 4   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'kitchen', 'in_hand(rob1': 'book1', 'loc(book1': 'kitchen'}
+Initial Conditions Index: 4
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book1)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+pickup(rob1,book2)
+move(rob1,library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(rob1,library),true,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(move(rob1,kitchen),9)
+obs(loc(rob1,kitchen),true,10)
+obs(loc(book2,kitchen),true,10)
+obs(loc(book1,kitchen),false,10)
+obs(in_hand(rob1,book2),false,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(pickup(rob1,book2),10)
+obs(locked(library),false,11)
+obs(loc(rob1,kitchen),true,11)
+obs(loc(book2,kitchen),true,11)
+obs(loc(book1,kitchen),false,11)
+obs(in_hand(rob1,book2),true,11)
+obs(in_hand(rob1,book1),false,11)
+attempt(move(rob1,library),11)
+obs(loc(rob1,library),true,12)
+obs(loc(book2,library),true,12)
+obs(loc(book1,library),true,12)
+obs(in_hand(rob1,book2),true,12)
+obs(in_hand(rob1,book1),false,12)
+attempt(put_down(rob1,book2),12)
+obs(loc(book2,library),true,13)
+obs(loc(book1,library),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),false,13)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 5   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 5
+Achieved goal ToI: T
+Running Scenario 5
+
+History World: 
+put_down(rob1,book1)
+exo_move(book2,kitchen)
+unlock(rob1,library)
+move(rob1,kitchen)
+pickup(rob1,book2)
+move(rob1,library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(in_hand(rob1,book1),true,2)
+attempt(put_down(rob1,book1),2)
+obs(loc(book2,library),false,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+attempt(stop(1),3)
+attempt(start(2),4)
+obs(locked(library),true,5)
+attempt(unlock(rob1,library),5)
+obs(locked(library),false,6)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(move(rob1,kitchen),6)
+obs(loc(rob1,kitchen),true,7)
+obs(loc(book2,kitchen),true,7)
+obs(loc(book1,kitchen),false,7)
+obs(in_hand(rob1,book2),false,7)
+obs(in_hand(rob1,book1),false,7)
+attempt(stop(2),7)
+attempt(start(3),8)
+attempt(pickup(rob1,book2),9)
+obs(locked(library),false,10)
+obs(loc(rob1,kitchen),true,10)
+obs(loc(book2,kitchen),true,10)
+obs(loc(book1,kitchen),false,10)
+obs(in_hand(rob1,book2),true,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(move(rob1,library),10)
+obs(loc(rob1,library),true,11)
+obs(loc(book2,library),true,11)
+obs(loc(book1,library),true,11)
+obs(in_hand(rob1,book2),true,11)
+obs(in_hand(rob1,book1),false,11)
+attempt(put_down(rob1,book2),11)
+obs(loc(book2,library),true,12)
+obs(loc(book1,library),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),false,12)
+
+activity_goal(1,my_goal).
+activity_length(1,1).
+activity_component(1,1,put_down(rob1,book1)).
+activity_goal(2,my_goal).
+activity_length(2,9).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,move(rob1,office1)).
+activity_component(2,4,move(rob1,office2)).
+activity_component(2,5,pickup(rob1,book2)).
+activity_component(2,6,move(rob1,office1)).
+activity_component(2,7,move(rob1,kitchen)).
+activity_component(2,8,move(rob1,library)).
+activity_component(2,9,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,3).
+activity_component(3,1,pickup(rob1,book2)).
+activity_component(3,2,move(rob1,library)).
+activity_component(3,3,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 6   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 6
+Achieved goal ToI: T
+Running Scenario 2
+
+History World: 
+unlock(rob1,library)
+exo_move(book2,library)
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 7   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'kitchen', 'in_hand(rob1': 'book1', 'loc(book1': 'kitchen'}
+Initial Conditions Index: 7
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),false,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),false,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(loc(book2,library),true,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+
+activity_goal(1,my_goal).
+activity_length(1,3).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 8   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'kitchen', 'in_hand(rob1': 'book1', 'loc(book1': 'kitchen'}
+Initial Conditions Index: 8
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book1)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+pickup(rob1,book2)
+move(rob1,library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(rob1,library),true,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(move(rob1,kitchen),9)
+obs(loc(rob1,kitchen),true,10)
+obs(loc(book2,kitchen),true,10)
+obs(loc(book1,kitchen),false,10)
+obs(in_hand(rob1,book2),false,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(pickup(rob1,book2),10)
+obs(locked(library),false,11)
+obs(loc(rob1,kitchen),true,11)
+obs(loc(book2,kitchen),true,11)
+obs(loc(book1,kitchen),false,11)
+obs(in_hand(rob1,book2),true,11)
+obs(in_hand(rob1,book1),false,11)
+attempt(move(rob1,library),11)
+obs(loc(rob1,library),true,12)
+obs(loc(book2,library),true,12)
+obs(loc(book1,library),true,12)
+obs(in_hand(rob1,book2),true,12)
+obs(in_hand(rob1,book1),false,12)
+attempt(put_down(rob1,book2),12)
+obs(loc(book2,library),true,13)
+obs(loc(book1,library),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),false,13)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 9   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book2', 'loc(book1': 'library'}
+Initial Conditions Index: 9
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),true,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(in_hand(rob1,book2),true,2)
+attempt(put_down(rob1,book2),2)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+
+activity_goal(1,my_goal).
+activity_length(1,1).
+activity_component(1,1,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 10   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book2', 'loc(book1': 'kitchen'}
+Initial Conditions Index: 10
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+put_down(rob1,book2)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+pickup(rob1,book1)
+move(rob1,library)
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),false,0)
+obs(in_hand(rob1,book2),true,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),false,3)
+obs(in_hand(rob1,book2),true,3)
+obs(in_hand(rob1,book1),false,3)
+attempt(put_down(rob1,book2),3)
+obs(locked(library),true,4)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),false,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(move(rob1,kitchen),4)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),true,5)
+obs(loc(book1,library),false,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(stop(1),5)
+attempt(start(2),6)
+obs(locked(library),true,7)
+attempt(unlock(rob1,library),7)
+obs(locked(library),false,8)
+obs(loc(rob1,library),true,8)
+obs(loc(book2,library),true,8)
+obs(loc(book1,library),false,8)
+obs(in_hand(rob1,book2),false,8)
+obs(in_hand(rob1,book1),false,8)
+attempt(move(rob1,kitchen),8)
+obs(loc(rob1,kitchen),true,9)
+obs(loc(book2,kitchen),false,9)
+obs(loc(book1,kitchen),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+attempt(start(3),10)
+attempt(pickup(rob1,book1),11)
+obs(locked(library),false,12)
+obs(loc(rob1,kitchen),true,12)
+obs(loc(book2,kitchen),false,12)
+obs(loc(book1,kitchen),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(move(rob1,library),12)
+obs(loc(rob1,library),true,13)
+obs(loc(book2,library),true,13)
+obs(loc(book1,library),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),true,13)
+attempt(put_down(rob1,book1),13)
+obs(loc(book2,library),true,14)
+obs(loc(book1,library),true,14)
+obs(in_hand(rob1,book2),false,14)
+obs(in_hand(rob1,book1),false,14)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book2)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book1)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book1)).
+activity_goal(2,my_goal).
+activity_length(2,7).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,move(rob1,office1)).
+activity_component(2,4,pickup(rob1,book1)).
+activity_component(2,5,move(rob1,kitchen)).
+activity_component(2,6,move(rob1,library)).
+activity_component(2,7,put_down(rob1,book1)).
+activity_goal(3,my_goal).
+activity_length(3,3).
+activity_component(3,1,pickup(rob1,book1)).
+activity_component(3,2,move(rob1,library)).
+activity_component(3,3,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 11   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'kitchen', 'in_hand(rob1': 'book2', 'loc(book1': 'library'}
+Initial Conditions Index: 11
+Achieved goal ToI: T
+Running Scenario 3
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+exo_move(book1,kitchen)
+put_down(rob1,book2)
+move(rob1,kitchen)
+pickup(rob1,book1)
+move(rob1,library)
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),false,0)
+obs(in_hand(rob1,book2),true,0)
+obs(in_hand(rob1,book1),false,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),false,3)
+obs(in_hand(rob1,book2),true,3)
+obs(in_hand(rob1,book1),false,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),false,4)
+obs(in_hand(rob1,book2),true,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(stop(1),4)
+attempt(start(2),5)
+obs(in_hand(rob1,book2),true,6)
+attempt(put_down(rob1,book2),6)
+obs(locked(library),false,7)
+obs(loc(rob1,library),true,7)
+obs(loc(book2,library),true,7)
+obs(loc(book1,library),false,7)
+obs(in_hand(rob1,book2),false,7)
+obs(in_hand(rob1,book1),false,7)
+attempt(move(rob1,kitchen),7)
+obs(loc(rob1,kitchen),true,8)
+obs(loc(book2,kitchen),false,8)
+obs(loc(book1,kitchen),true,8)
+obs(in_hand(rob1,book2),false,8)
+obs(in_hand(rob1,book1),false,8)
+attempt(stop(2),8)
+attempt(start(3),9)
+attempt(pickup(rob1,book1),10)
+obs(locked(library),false,11)
+obs(loc(rob1,kitchen),true,11)
+obs(loc(book2,kitchen),false,11)
+obs(loc(book1,kitchen),true,11)
+obs(in_hand(rob1,book2),false,11)
+obs(in_hand(rob1,book1),true,11)
+attempt(move(rob1,library),11)
+obs(loc(rob1,library),true,12)
+obs(loc(book2,library),true,12)
+obs(loc(book1,library),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(put_down(rob1,book1),12)
+obs(loc(book2,library),true,13)
+obs(loc(book1,library),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),false,13)
+
+activity_goal(1,my_goal).
+activity_length(1,3).
+activity_component(1,1,unlock(rob1,library)).
+activity_c$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+pickup(rob1,book2)
+move(rob1,library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(rob1,library),true,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(move(rob1,kitchen),9)
+obs(loc(rob1,kitchen),true,10)
+obs(loc(book2,kitchen),true,10)
+obs(loc(book1,kitchen),false,10)
+obs(in_hand(rob1,book2),false,10)
+obs(in_hand(rob1,book1),false,10)
+attempt(pickup(rob1,book2),10)
+obs(locked(library),false,11)
+obs(loc(rob1,kitchen),true,11)
+obs(loc(book2,kitchen),true,11)
+obs(loc(book1,kitchen),false,11)
+obs(in_hand(rob1,book2),true,11)
+obs(in_hand(rob1,book1),false,11)
+attempt(move(rob1,library),11)
+obs(loc(rob1,library),true,12)
+obs(loc(book2,library),true,12)
+obs(loc(book1,library),true,12)
+obs(in_hand(rob1,book2),true,12)
+obs(in_hand(rob1,book1),false,12)
+attempt(put_down(rob1,book2),12)
+obs(loc(book2,library),true,13)
+obs(loc(book1,library),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),false,13)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+Achieved goal ToI: F
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+exo_move(book1,kitchen)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),false,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+exo_move(book1,kitchen)
+move(rob1,kitchen)
+exo_lock(library)
+pickup(rob1,book2)
+move(rob1,library) (FAILED) 
+exo_move(book1,library)
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),false,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+attempt(start(3),10)
+obs(locked(library),false,11)
+obs(loc(rob1,library),true,11)
+attempt(move(rob1,kitchen),11)
+obs(loc(rob1,kitchen),true,12)
+obs(loc(book2,kitchen),true,12)
+obs(loc(book1,kitchen),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),false,12)
+attempt(stop(3),12)
+attempt(start(4),13)
+attempt(pickup(rob1,book2),14)
+obs(locked(library),true,15)
+obs(loc(rob1,kitchen),true,15)
+obs(loc(book2,kitchen),true,15)
+obs(loc(book1,kitchen),true,15)
+obs(in_hand(rob1,book2),true,15)
+obs(in_hand(rob1,book1),false,15)
+attempt(move(rob1,library),15)
+obs(loc(rob1,kitchen),true,16)
+obs(loc(book2,kitchen),true,16)
+obs(loc(book1,kitchen),false,16)
+obs(in_hand(rob1,book2),true,16)
+obs(in_hand(rob1,book1),false,16)
+attempt(stop(4),16)
+attempt(start(5),17)
+obs(locked(library),true,18)
+attempt(unlock(rob1,library),18)
+obs(locked(library),false,19)
+obs(loc(rob1,kitchen),true,19)
+obs(loc(book2,kitchen),true,19)
+obs(loc(book1,kitchen),false,19)
+obs(in_hand(rob1,book2),true,19)
+obs(in_hand(rob1,book1),false,19)
+attempt(move(rob1,library),19)
+obs(loc(rob1,library),true,20)
+obs(loc(book2,library),true,20)
+obs(loc(book1,library),true,20)
+obs(in_hand(rob1,book2),true,20)
+obs(in_hand(rob1,book1),false,20)
+attempt(put_down(rob1,book2),20)
+obs(loc(book2,library),true,21)
+obs(loc(book1,library),true,21)
+obs(in_hand(rob1,book2),false,21)
+obs(in_hand(rob1,book1),false,21)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,12).
+activity_component(3,1,move(rob1,kitchen)).
+activity_component(3,2,pickup(rob1,book2)).
+activity_component(3,3,move(rob1,library)).
+activity_component(3,4,put_down(rob1,book2)).
+activity_component(3,5,move(rob1,kitchen)).
+activity_component(3,6,move(rob1,office1)).
+activity_component(3,7,move(rob1,office2)).
+activity_component(3,8,pickup(rob1,book1)).
+activity_component(3,9,move(rob1,office1)).
+activity_component(3,10,move(rob1,kitchen)).
+activity_component(3,11,move(rob1,library)).
+activity_component(3,12,put_down(rob1,book1)).
+activity_goal(4,my_goal).
+activity_length(4,7).
+activity_component(4,1,pickup(rob1,book2)).
+activity_component(4,2,move(rob1,library)).
+activity_component(4,3,put_down(rob1,book2)).
+activity_component(4,4,move(rob1,kitchen)).
+activity_component(4,5,pickup(rob1,book1)).
+activity_component(4,6,move(rob1,library)).
+activity_component(4,7,put_down(rob1,book1)).
+activity_goal(5,my_goal).
+activity_length(5,11).
+activity_component(5,1,unlock(rob1,library)).
+activity_component(5,2,move(rob1,library)).
+activity_component(5,3,put_down(rob1,book2)).
+activity_component(5,4,move(rob1,kitchen)).
+activity_component(5,5,move(rob1,office1)).
+activity_component(5,6,move(rob1,office2)).
+activity_component(5,7,pickup(rob1,book1)).
+activity_component(5,8,move(rob1,office1)).
+activity_component(5,9,move(rob1,kitchen)).
+activity_component(5,10,move(rob1,library)).
+activity_component(5,11,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(rob1': 'kitchen', 'loc(book2': 'kitchen', 'loc(book1': 'kitchen', 'in_hand(rob1': 'book1'}
+Initial Conditions Index: 0
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+exo_move(book1,kitchen)
+move(rob1,kitchen)
+exo_lock(library)
+pickup(rob1,book2)
+move(rob1,library) (FAILED) 
+exo_move(book1,library)
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book2)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,kitchen),true,0)
+obs(loc(book2,kitchen),true,0)
+obs(loc(book1,kitchen),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(rob1,kitchen),true,3)
+obs(loc(book2,kitchen),true,3)
+obs(loc(book1,kitchen),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(move(rob1,library),3)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),true,4)
+attempt(put_down(rob1,book1),4)
+obs(locked(library),true,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(move(rob1,kitchen),5)
+obs(loc(rob1,library),true,6)
+obs(loc(book2,library),false,6)
+obs(loc(book1,library),true,6)
+obs(in_hand(rob1,book2),false,6)
+obs(in_hand(rob1,book1),false,6)
+attempt(stop(1),6)
+attempt(start(2),7)
+obs(locked(library),true,8)
+attempt(unlock(rob1,library),8)
+obs(locked(library),false,9)
+obs(loc(book2,library),false,9)
+obs(loc(book1,library),false,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+attempt(start(3),10)
+obs(locked(library),false,11)
+obs(loc(rob1,library),true,11)
+attempt(move(rob1,kitchen),11)
+obs(loc(rob1,kitchen),true,12)
+obs(loc(book2,kitchen),true,12)
+obs(loc(book1,kitchen),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),false,12)
+attempt(stop(3),12)
+attempt(start(4),13)
+attempt(pickup(rob1,book2),14)
+obs(locked(library),true,15)
+obs(loc(rob1,kitchen),true,15)
+obs(loc(book2,kitchen),true,15)
+obs(loc(book1,kitchen),true,15)
+obs(in_hand(rob1,book2),true,15)
+obs(in_hand(rob1,book1),false,15)
+attempt(move(rob1,library),15)
+obs(loc(rob1,kitchen),true,16)
+obs(loc(book2,kitchen),true,16)
+obs(loc(book1,kitchen),false,16)
+obs(in_hand(rob1,book2),true,16)
+obs(in_hand(rob1,book1),false,16)
+attempt(stop(4),16)
+attempt(start(5),17)
+obs(locked(library),true,18)
+attempt(unlock(rob1,library),18)
+obs(locked(library),false,19)
+obs(loc(rob1,kitchen),true,19)
+obs(loc(book2,kitchen),true,19)
+obs(loc(book1,kitchen),false,19)
+obs(in_hand(rob1,book2),true,19)
+obs(in_hand(rob1,book1),false,19)
+attempt(move(rob1,library),19)
+obs(loc(rob1,library),true,20)
+obs(loc(book2,library),true,20)
+obs(loc(book1,library),true,20)
+obs(in_hand(rob1,book2),true,20)
+obs(in_hand(rob1,book1),false,20)
+attempt(put_down(rob1,book2),20)
+obs(loc(book2,library),true,21)
+obs(loc(book1,library),true,21)
+obs(in_hand(rob1,book2),false,21)
+obs(in_hand(rob1,book1),false,21)
+
+activity_goal(1,my_goal).
+activity_length(1,7).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,move(rob1,library)).
+activity_component(1,3,put_down(rob1,book1)).
+activity_component(1,4,move(rob1,kitchen)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,library)).
+activity_component(1,7,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,5).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,pickup(rob1,book2)).
+activity_component(2,4,move(rob1,library)).
+activity_component(2,5,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,12).
+activity_component(3,1,move(rob1,kitchen)).
+activity_component(3,2,pickup(rob1,book2)).
+activity_component(3,3,move(rob1,library)).
+activity_component(3,4,put_down(rob1,book2)).
+activity_component(3,5,move(rob1,kitchen)).
+activity_component(3,6,move(rob1,office1)).
+activity_component(3,7,move(rob1,office2)).
+activity_component(3,8,pickup(rob1,book1)).
+activity_component(3,9,move(rob1,office1)).
+activity_component(3,10,move(rob1,kitchen)).
+activity_component(3,11,move(rob1,library)).
+activity_component(3,12,put_down(rob1,book1)).
+activity_goal(4,my_goal).
+activity_length(4,7).
+activity_component(4,1,pickup(rob1,book2)).
+activity_component(4,2,move(rob1,library)).
+activity_component(4,3,put_down(rob1,book2)).
+activity_component(4,4,move(rob1,kitchen)).
+activity_component(4,5,pickup(rob1,book1)).
+activity_component(4,6,move(rob1,library)).
+activity_component(4,7,put_down(rob1,book1)).
+activity_goal(5,my_goal).
+activity_length(5,11).
+activity_component(5,1,unlock(rob1,library)).
+activity_component(5,2,move(rob1,library)).
+activity_component(5,3,put_down(rob1,book2)).
+activity_component(5,4,move(rob1,kitchen)).
+activity_component(5,5,move(rob1,office1)).
+activity_component(5,6,move(rob1,office2)).
+activity_component(5,7,pickup(rob1,book1)).
+activity_component(5,8,move(rob1,office1)).
+activity_component(5,9,move(rob1,kitchen)).
+activity_component(5,10,move(rob1,library)).
+activity_component(5,11,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 1
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(in_hand(rob1,book1),true,2)
+attempt(put_down(rob1,book1),2)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+
+activity_goal(1,my_goal).
+activity_length(1,1).
+activity_component(1,1,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 2   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'office2', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 2
+Achieved goal ToI: T
+Running Scenario 2
+
+History World: 
+unlock(rob1,library)
+exo_move(book2,library)
+put_down(rob1,book1)
+exo_lock(library)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 3   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'office1', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 3
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+exo_move(book1,kitchen)
+pickup(rob1,book1)
+exo_lock(library)
+move(rob1,library) (FAILED) 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+move(rob1,kitchen)
+exo_move(book1,office1)
+move(rob1,office1)
+exo_move(book2,kitchen)
+move(rob1,office2)
+exo_lock(library)
+move(rob1,office1)
+pickup(rob1,book1)
+move(rob1,kitchen)
+move(rob1,library) (FAILED) 
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book1)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+exo_move(book2,library)
+
+History ToI: 
+obs(my_goal,false,0)
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+obs(my_goal,false,1)
+attempt(start(1),1)
+obs(my_goal,false,2)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(my_goal,false,3)
+obs(locked(library),false,3)
+obs(loc(book2,library),false,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(my_goal,false,4)
+obs(locked(library),true,4)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(move(rob1,kitchen),4)
+obs(my_goal,false,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(stop(1),5)
+obs(my_goal,false,6)
+attempt(start(2),6)
+obs(my_goal,false,7)
+obs(locked(library),true,7)
+attempt(unlock(rob1,library),7)
+obs(my_goal,false,8)
+obs(locked(library),false,8)
+obs(loc(rob1,library),true,8)
+obs(loc(book2,library),false,8)
+obs(loc(book1,library),true,8)
+obs(in_hand(rob1,book2),false,8)
+obs(in_hand(rob1,book1),false,8)
+attempt(move(rob1,kitchen),8)
+obs(my_goal,false,9)
+obs(loc(rob1,kitchen),true,9)
+obs(loc(book2,kitchen),false,9)
+obs(loc(book1,kitchen),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+obs(my_goal,false,10)
+attempt(start(3),10)
+obs(my_goal,false,11)
+attempt(pickup(rob1,book1),11)
+obs(my_goal,false,12)
+obs(locked(library),true,12)
+obs(loc(rob1,kitchen),true,12)
+obs(loc(book2,kitchen),false,12)
+obs(loc(book1,kitchen),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(move(rob1,library),12)
+obs(my_goal,false,13)
+obs(loc(rob1,kitchen),true,13)
+obs(loc(book2,kitchen),false,13)
+obs(loc(book1,kitchen),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),true,13)
+attempt(stop(3),13)
+obs(my_goal,false,14)
+attempt(start(4),14)
+obs(my_goal,false,15)
+obs(locked(library),true,15)
+attempt(unlock(rob1,library),15)
+obs(my_goal,false,16)
+obs(locked(library),false,16)
+obs(loc(rob1,kitchen),true,16)
+obs(loc(book2,kitchen),false,16)
+obs(loc(book1,kitchen),true,16)
+obs(in_hand(rob1,book2),false,16)
+obs(in_hand(rob1,book1),true,16)
+attempt(move(rob1,library),16)
+obs(my_goal,false,17)
+obs(loc(rob1,library),true,17)
+obs(loc(book2,library),false,17)
+obs(loc(book1,library),true,17)
+obs(in_hand(rob1,book2),false,17)
+obs(in_hand(rob1,book1),true,17)
+attempt(put_down(rob1,book1),17)
+obs(my_goal,false,18)
+obs(locked(library),false,18)
+obs(loc(rob1,library),true,18)
+obs(loc(book2,library),false,18)
+obs(loc(book1,library),true,18)
+obs(in_hand(rob1,book2),false,18)
+obs(in_hand(rob1,book1),false,18)
+attempt(move(rob1,kitchen),18)
+obs(my_goal,false,19)
+obs(loc(rob1,kitchen),true,19)
+obs(loc(book2,kitchen),false,19)
+obs(loc(book1,kitchen),false,19)
+obs(in_hand(rob1,book2),false,19)
+obs(in_hand(rob1,book1),false,19)
+attempt(move(rob1,office1),19)
+obs(my_goal,false,20)
+obs(loc(rob1,office1),true,20)
+obs(loc(book2,office1),false,20)
+obs(loc(book1,office1),true,20)
+obs(in_hand(rob1,book2),false,20)
+obs(in_hand(rob1,book1),false,20)
+attempt(stop(4),20)
+obs(my_goal,false,21)
+attempt(start(5),21)
+obs(my_goal,false,22)
+attempt(move(rob1,office2),22)
+obs(my_goal,false,23)
+obs(loc(rob1,office2),true,23)
+obs(loc(book2,office2),false,23)
+obs(loc(book1,office2),false,23)
+obs(in_hand(rob1,book2),false,23)
+obs(in_hand(rob1,book1),false,23)
+attempt(stop(5),23)
+attempt(start(6),24)
+attempt(move(rob1,office1),25)
+obs(loc(rob1,office1),true,26)
+obs(loc(book2,office1),false,26)
+obs(loc(book1,office1),true,26)
+obs(in_hand(rob1,book2),false,26)
+obs(in_hand(rob1,book1),false,26)
+attempt(pickup(rob1,book1),26)
+obs(loc(rob1,office1),true,27)
+obs(loc(book2,office1),false,27)
+obs(loc(book1,office1),true,27)
+obs(in_hand(rob1,book2),false,27)
+obs(in_hand(rob1,book1),true,27)
+attempt(move(rob1,kitchen),27)
+obs(locked(library),true,28)
+obs(loc(rob1,kitchen),true,28)
+obs(loc(book2,kitchen),true,28)
+obs(loc(book1,kitchen),true,28)
+obs(in_hand(rob1,book2),false,28)
+obs(in_hand(rob1,book1),true,28)
+attempt(move(rob1,library),28)
+obs(loc(rob1,kitchen),true,29)
+obs(loc(book2,kitchen),true,29)
+obs(loc(book1,kitchen),true,29)
+obs(in_hand(rob1,book2),false,29)
+obs(in_hand(rob1,book1),true,29)
+attempt(stop(6),29)
+attempt(start(7),30)
+obs(locked(library),true,31)
+attempt(unlock(rob1,library),31)
+obs(locked(library),false,32)
+obs(loc(rob1,kitchen),true,32)
+obs(loc(book2,kitchen),true,32)
+obs(loc(book1,kitchen),true,32)
+obs(in_hand(rob1,book2),false,32)
+obs(in_hand(rob1,book1),true,32)
+attempt(move(rob1,library),32)
+obs(loc(rob1,library),true,33)
+obs(loc(book2,library),false,33)
+obs(loc(book1,library),true,33)
+obs(in_hand(rob1,book2),false,33)
+obs(in_hand(rob1,book1),true,33)
+attempt(put_down(rob1,book1),33)
+obs(locked(library),true,34)
+obs(loc(rob1,library),true,34)
+obs(loc(book2,library),false,34)
+obs(loc(book1,library),true,34)
+obs(in_hand(rob1,book2),false,34)
+obs(in_hand(rob1,book1),false,34)
+attempt(move(rob1,kitchen),34)
+obs(loc(rob1,library),true,35)
+obs(loc(book2,library),false,35)
+obs(loc(book1,library),true,35)
+obs(in_hand(rob1,book2),false,35)
+obs(in_hand(rob1,book1),false,35)
+attempt(stop(7),35)
+attempt(start(8),36)
+obs(locked(library),true,37)
+attempt(unlock(rob1,library),37)
+obs(locked(library),false,38)
+obs(loc(book2,library),true,38)
+obs(loc(book1,library),true,38)
+obs(in_hand(rob1,book2),false,38)
+obs(in_hand(rob1,book1),false,38)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,7).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,move(rob1,office1)).
+activity_component(2,4,pickup(rob1,book2)).
+activity_component(2,5,move(rob1,kitchen)).
+activity_component(2,6,move(rob1,library)).
+activity_component(2,7,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,9).
+activity_component(3,1,pickup(rob1,book1)).
+activity_component(3,2,move(rob1,library)).
+activity_component(3,3,put_down(rob1,book1)).
+activity_component(3,4,move(rob1,kitchen)).
+activity_component(3,5,move(rob1,office1)).
+activity_component(3,6,pickup(rob1,book2)).
+activity_component(3,7,move(rob1,kitchen)).
+activity_component(3,8,move(rob1,library)).
+activity_component(3,9,put_down(rob1,book2)).
+activity_goal(4,my_goal).
+activity_length(4,9).
+activity_component(4,1,unlock(rob1,library)).
+activity_component(4,2,move(rob1,library)).
+activity_component(4,3,put_down(rob1,book1)).
+activity_component(4,4,move(rob1,kitchen)).
+activity_component(4,5,move(rob1,office1)).
+activity_component(4,6,pickup(rob1,book2)).
+activity_component(4,7,move(rob1,kitchen)).
+activity_component(4,8,move(rob1,library)).
+activity_component(4,9,put_down(rob1,book2)).
+activity_goal(5,my_goal).
+activity_length(5,12).
+activity_component(5,1,move(rob1,office2)).
+activity_component(5,2,pickup(rob1,book2)).
+activity_component(5,3,move(rob1,office1)).
+activity_component(5,4,move(rob1,kitchen)).
+activity_component(5,5,move(rob1,library)).
+activity_component(5,6,put_down(rob1,book2)).
+activity_component(5,7,move(rob1,kitchen)).
+activity_component(5,8,move(rob1,office1)).
+activity_component(5,9,pickup(rob1,book1)).
+activity_component(5,10,move(rob1,kitchen)).
+activity_component(5,11,move(rob1,library)).
+activity_component(5,12,put_down(rob1,book1)).
+activity_goal(6,my_goal).
+activity_length(6,9).
+activity_component(6,1,move(rob1,office1)).
+activity_component(6,2,pickup(rob1,book1)).
+activity_component(6,3,move(rob1,kitchen)).
+activity_component(6,4,move(rob1,library)).
+activity_component(6,5,put_down(rob1,book1)).
+activity_component(6,6,move(rob1,kitchen)).
+activity_component(6,7,pickup(rob1,book2)).
+activity_component(6,8,move(rob1,library)).
+activity_component(6,9,put_down(rob1,book2)).
+activity_goal(7,my_goal).
+activity_length(7,7).
+activity_component(7,1,unlock(rob1,library)).
+activity_component(7,2,move(rob1,library)).
+activity_component(7,3,put_down(rob1,book1)).
+activity_component(7,4,move(rob1,kitchen)).
+activity_component(7,5,pickup(rob1,book2)).
+activity_component(7,6,move(rob1,library)).
+activity_component(7,7,put_down(rob1,book2)).
+activity_goal(8,my_goal).
+activity_length(8,5).
+activity_component(8,1,unlock(rob1,library)).
+activity_component(8,2,move(rob1,kitchen)).
+activity_component(8,3,pickup(rob1,book2)).
+activity_component(8,4,move(rob1,library)).
+activity_component(8,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 4   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 4
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'library', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 1
+Achieved goal ToI: T
+Running Scenario 1
+
+History World: 
+put_down(rob1,book1)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),true,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(in_hand(rob1,book1),true,2)
+attempt(put_down(rob1,book1),2)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),false,3)
+
+activity_goal(1,my_goal).
+activity_length(1,1).
+activity_component(1,1,put_down(rob1,book1)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 2   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'office2', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 2
+Achieved goal ToI: T
+Running Scenario 2
+
+History World: 
+unlock(rob1,library)
+exo_move(book2,library)
+put_down(rob1,book1)
+exo_lock(library)
+
+History ToI: 
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+attempt(start(1),1)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(locked(library),false,3)
+obs(loc(book2,library),true,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(loc(book2,library),true,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 3   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'office1', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 3
+Achieved goal ToI: T
+Running Scenario 6
+
+History World: 
+unlock(rob1,library)
+put_down(rob1,book1)
+exo_lock(library)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+move(rob1,kitchen)
+exo_move(book1,kitchen)
+pickup(rob1,book1)
+exo_lock(library)
+move(rob1,library) (FAILED) 
+unlock(rob1,library)
+move(rob1,library)
+put_down(rob1,book1)
+move(rob1,kitchen)
+exo_move(book1,office1)
+move(rob1,office1)
+exo_move(book2,kitchen)
+move(rob1,office2)
+exo_lock(library)
+move(rob1,office1)
+pickup(rob1,book1)
+move(rob1,kitchen)
+move(rob1,library) (FAILED) 
+unlock(rob1,library)
+move(rob1,library)
+exo_lock(library)
+put_down(rob1,book1)
+move(rob1,kitchen) (FAILED) 
+unlock(rob1,library)
+exo_move(book2,library)
+
+History ToI: 
+obs(my_goal,false,0)
+obs(locked(library),true,0)
+obs(loc(rob1,library),true,0)
+obs(loc(book2,library),false,0)
+obs(loc(book1,library),true,0)
+obs(in_hand(rob1,book2),false,0)
+obs(in_hand(rob1,book1),true,0)
+hpd(select(my_goal), true,0)
+obs(my_goal,false,1)
+attempt(start(1),1)
+obs(my_goal,false,2)
+obs(locked(library),true,2)
+attempt(unlock(rob1,library),2)
+obs(my_goal,false,3)
+obs(locked(library),false,3)
+obs(loc(book2,library),false,3)
+obs(loc(book1,library),true,3)
+obs(in_hand(rob1,book2),false,3)
+obs(in_hand(rob1,book1),true,3)
+attempt(put_down(rob1,book1),3)
+obs(my_goal,false,4)
+obs(locked(library),true,4)
+obs(loc(rob1,library),true,4)
+obs(loc(book2,library),false,4)
+obs(loc(book1,library),true,4)
+obs(in_hand(rob1,book2),false,4)
+obs(in_hand(rob1,book1),false,4)
+attempt(move(rob1,kitchen),4)
+obs(my_goal,false,5)
+obs(loc(rob1,library),true,5)
+obs(loc(book2,library),false,5)
+obs(loc(book1,library),true,5)
+obs(in_hand(rob1,book2),false,5)
+obs(in_hand(rob1,book1),false,5)
+attempt(stop(1),5)
+obs(my_goal,false,6)
+attempt(start(2),6)
+obs(my_goal,false,7)
+obs(locked(library),true,7)
+attempt(unlock(rob1,library),7)
+obs(my_goal,false,8)
+obs(locked(library),false,8)
+obs(loc(rob1,library),true,8)
+obs(loc(book2,library),false,8)
+obs(loc(book1,library),true,8)
+obs(in_hand(rob1,book2),false,8)
+obs(in_hand(rob1,book1),false,8)
+attempt(move(rob1,kitchen),8)
+obs(my_goal,false,9)
+obs(loc(rob1,kitchen),true,9)
+obs(loc(book2,kitchen),false,9)
+obs(loc(book1,kitchen),true,9)
+obs(in_hand(rob1,book2),false,9)
+obs(in_hand(rob1,book1),false,9)
+attempt(stop(2),9)
+obs(my_goal,false,10)
+attempt(start(3),10)
+obs(my_goal,false,11)
+attempt(pickup(rob1,book1),11)
+obs(my_goal,false,12)
+obs(locked(library),true,12)
+obs(loc(rob1,kitchen),true,12)
+obs(loc(book2,kitchen),false,12)
+obs(loc(book1,kitchen),true,12)
+obs(in_hand(rob1,book2),false,12)
+obs(in_hand(rob1,book1),true,12)
+attempt(move(rob1,library),12)
+obs(my_goal,false,13)
+obs(loc(rob1,kitchen),true,13)
+obs(loc(book2,kitchen),false,13)
+obs(loc(book1,kitchen),true,13)
+obs(in_hand(rob1,book2),false,13)
+obs(in_hand(rob1,book1),true,13)
+attempt(stop(3),13)
+obs(my_goal,false,14)
+attempt(start(4),14)
+obs(my_goal,false,15)
+obs(locked(library),true,15)
+attempt(unlock(rob1,library),15)
+obs(my_goal,false,16)
+obs(locked(library),false,16)
+obs(loc(rob1,kitchen),true,16)
+obs(loc(book2,kitchen),false,16)
+obs(loc(book1,kitchen),true,16)
+obs(in_hand(rob1,book2),false,16)
+obs(in_hand(rob1,book1),true,16)
+attempt(move(rob1,library),16)
+obs(my_goal,false,17)
+obs(loc(rob1,library),true,17)
+obs(loc(book2,library),false,17)
+obs(loc(book1,library),true,17)
+obs(in_hand(rob1,book2),false,17)
+obs(in_hand(rob1,book1),true,17)
+attempt(put_down(rob1,book1),17)
+obs(my_goal,false,18)
+obs(locked(library),false,18)
+obs(loc(rob1,library),true,18)
+obs(loc(book2,library),false,18)
+obs(loc(book1,library),true,18)
+obs(in_hand(rob1,book2),false,18)
+obs(in_hand(rob1,book1),false,18)
+attempt(move(rob1,kitchen),18)
+obs(my_goal,false,19)
+obs(loc(rob1,kitchen),true,19)
+obs(loc(book2,kitchen),false,19)
+obs(loc(book1,kitchen),false,19)
+obs(in_hand(rob1,book2),false,19)
+obs(in_hand(rob1,book1),false,19)
+attempt(move(rob1,office1),19)
+obs(my_goal,false,20)
+obs(loc(rob1,office1),true,20)
+obs(loc(book2,office1),false,20)
+obs(loc(book1,office1),true,20)
+obs(in_hand(rob1,book2),false,20)
+obs(in_hand(rob1,book1),false,20)
+attempt(stop(4),20)
+obs(my_goal,false,21)
+attempt(start(5),21)
+obs(my_goal,false,22)
+attempt(move(rob1,office2),22)
+obs(my_goal,false,23)
+obs(loc(rob1,office2),true,23)
+obs(loc(book2,office2),false,23)
+obs(loc(book1,office2),false,23)
+obs(in_hand(rob1,book2),false,23)
+obs(in_hand(rob1,book1),false,23)
+attempt(stop(5),23)
+attempt(start(6),24)
+attempt(move(rob1,office1),25)
+obs(loc(rob1,office1),true,26)
+obs(loc(book2,office1),false,26)
+obs(loc(book1,office1),true,26)
+obs(in_hand(rob1,book2),false,26)
+obs(in_hand(rob1,book1),false,26)
+attempt(pickup(rob1,book1),26)
+obs(loc(rob1,office1),true,27)
+obs(loc(book2,office1),false,27)
+obs(loc(book1,office1),true,27)
+obs(in_hand(rob1,book2),false,27)
+obs(in_hand(rob1,book1),true,27)
+attempt(move(rob1,kitchen),27)
+obs(locked(library),true,28)
+obs(loc(rob1,kitchen),true,28)
+obs(loc(book2,kitchen),true,28)
+obs(loc(book1,kitchen),true,28)
+obs(in_hand(rob1,book2),false,28)
+obs(in_hand(rob1,book1),true,28)
+attempt(move(rob1,library),28)
+obs(loc(rob1,kitchen),true,29)
+obs(loc(book2,kitchen),true,29)
+obs(loc(book1,kitchen),true,29)
+obs(in_hand(rob1,book2),false,29)
+obs(in_hand(rob1,book1),true,29)
+attempt(stop(6),29)
+attempt(start(7),30)
+obs(locked(library),true,31)
+attempt(unlock(rob1,library),31)
+obs(locked(library),false,32)
+obs(loc(rob1,kitchen),true,32)
+obs(loc(book2,kitchen),true,32)
+obs(loc(book1,kitchen),true,32)
+obs(in_hand(rob1,book2),false,32)
+obs(in_hand(rob1,book1),true,32)
+attempt(move(rob1,library),32)
+obs(loc(rob1,library),true,33)
+obs(loc(book2,library),false,33)
+obs(loc(book1,library),true,33)
+obs(in_hand(rob1,book2),false,33)
+obs(in_hand(rob1,book1),true,33)
+attempt(put_down(rob1,book1),33)
+obs(locked(library),true,34)
+obs(loc(rob1,library),true,34)
+obs(loc(book2,library),false,34)
+obs(loc(book1,library),true,34)
+obs(in_hand(rob1,book2),false,34)
+obs(in_hand(rob1,book1),false,34)
+attempt(move(rob1,kitchen),34)
+obs(loc(rob1,library),true,35)
+obs(loc(book2,library),false,35)
+obs(loc(book1,library),true,35)
+obs(in_hand(rob1,book2),false,35)
+obs(in_hand(rob1,book1),false,35)
+attempt(stop(7),35)
+attempt(start(8),36)
+obs(locked(library),true,37)
+attempt(unlock(rob1,library),37)
+obs(locked(library),false,38)
+obs(loc(book2,library),true,38)
+obs(loc(book1,library),true,38)
+obs(in_hand(rob1,book2),false,38)
+obs(in_hand(rob1,book1),false,38)
+
+activity_goal(1,my_goal).
+activity_length(1,8).
+activity_component(1,1,unlock(rob1,library)).
+activity_component(1,2,put_down(rob1,book1)).
+activity_component(1,3,move(rob1,kitchen)).
+activity_component(1,4,move(rob1,office1)).
+activity_component(1,5,pickup(rob1,book2)).
+activity_component(1,6,move(rob1,kitchen)).
+activity_component(1,7,move(rob1,library)).
+activity_component(1,8,put_down(rob1,book2)).
+activity_goal(2,my_goal).
+activity_length(2,7).
+activity_component(2,1,unlock(rob1,library)).
+activity_component(2,2,move(rob1,kitchen)).
+activity_component(2,3,move(rob1,office1)).
+activity_component(2,4,pickup(rob1,book2)).
+activity_component(2,5,move(rob1,kitchen)).
+activity_component(2,6,move(rob1,library)).
+activity_component(2,7,put_down(rob1,book2)).
+activity_goal(3,my_goal).
+activity_length(3,9).
+activity_component(3,1,pickup(rob1,book1)).
+activity_component(3,2,move(rob1,library)).
+activity_component(3,3,put_down(rob1,book1)).
+activity_component(3,4,move(rob1,kitchen)).
+activity_component(3,5,move(rob1,office1)).
+activity_component(3,6,pickup(rob1,book2)).
+activity_component(3,7,move(rob1,kitchen)).
+activity_component(3,8,move(rob1,library)).
+activity_component(3,9,put_down(rob1,book2)).
+activity_goal(4,my_goal).
+activity_length(4,9).
+activity_component(4,1,unlock(rob1,library)).
+activity_component(4,2,move(rob1,library)).
+activity_component(4,3,put_down(rob1,book1)).
+activity_component(4,4,move(rob1,kitchen)).
+activity_component(4,5,move(rob1,office1)).
+activity_component(4,6,pickup(rob1,book2)).
+activity_component(4,7,move(rob1,kitchen)).
+activity_component(4,8,move(rob1,library)).
+activity_component(4,9,put_down(rob1,book2)).
+activity_goal(5,my_goal).
+activity_length(5,12).
+activity_component(5,1,move(rob1,office2)).
+activity_component(5,2,pickup(rob1,book2)).
+activity_component(5,3,move(rob1,office1)).
+activity_component(5,4,move(rob1,kitchen)).
+activity_component(5,5,move(rob1,library)).
+activity_component(5,6,put_down(rob1,book2)).
+activity_component(5,7,move(rob1,kitchen)).
+activity_component(5,8,move(rob1,office1)).
+activity_component(5,9,pickup(rob1,book1)).
+activity_component(5,10,move(rob1,kitchen)).
+activity_component(5,11,move(rob1,library)).
+activity_component(5,12,put_down(rob1,book1)).
+activity_goal(6,my_goal).
+activity_length(6,9).
+activity_component(6,1,move(rob1,office1)).
+activity_component(6,2,pickup(rob1,book1)).
+activity_component(6,3,move(rob1,kitchen)).
+activity_component(6,4,move(rob1,library)).
+activity_component(6,5,put_down(rob1,book1)).
+activity_component(6,6,move(rob1,kitchen)).
+activity_component(6,7,pickup(rob1,book2)).
+activity_component(6,8,move(rob1,library)).
+activity_component(6,9,put_down(rob1,book2)).
+activity_goal(7,my_goal).
+activity_length(7,7).
+activity_component(7,1,unlock(rob1,library)).
+activity_component(7,2,move(rob1,library)).
+activity_component(7,3,put_down(rob1,book1)).
+activity_component(7,4,move(rob1,kitchen)).
+activity_component(7,5,pickup(rob1,book2)).
+activity_component(7,6,move(rob1,library)).
+activity_component(7,7,put_down(rob1,book2)).
+activity_goal(8,my_goal).
+activity_length(8,5).
+activity_component(8,1,unlock(rob1,library)).
+activity_component(8,2,move(rob1,kitchen)).
+activity_component(8,3,pickup(rob1,book2)).
+activity_component(8,4,move(rob1,library)).
+activity_component(8,5,put_down(rob1,book2)).
+
+Other Relevant Information: 
+
+
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 4   $$$$$$$$$$$$$$$$$$$
+Goal: holds(loc(book2,library),I), holds(loc(book1,library),I), -holds(in_hand(rob1,book1),I), -holds(in_hand(rob1,book2),I) .
+Initial World State: {'locked(library': None, 'loc(book2': 'kitchen', 'loc(rob1': 'library', 'in_hand(rob1': 'book1', 'loc(book1': 'library'}
+Initial Conditions Index: 4

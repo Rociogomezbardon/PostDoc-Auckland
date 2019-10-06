@@ -1,0 +1,492 @@
+$$$$$$$$$$$$$$$$$$$   Run number 1   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 2   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 3   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 4   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 5   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 6   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 7   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 8   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'unlock(rob1,library)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 9   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 10   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 11   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 12   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 13   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 14   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 15   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 16   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 17   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 18   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 19   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 20   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 21   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['unlock(rob1,library)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 22   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['unlock(rob1,library)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'unlock(rob1,library)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 23   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 24   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 25   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,library),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+--------------------------------------------------------------
+
+$$$$$$$$$$$$$$$$$$$   Run number 26   $$$$$$$$$$$$$$$$$$$
+Goal: tidy_all(library)
+Initial Conditions Index: 0
+Initial Conditions: -holds(locked(library),0).
+holds(loc(rob1,kitchen),0).
+holds(loc(book1,office2),0).
+holds(loc(book2,office2),0).
+-holds(in_hand(rob1,book1),0).
+-holds(in_hand(rob1,book2),0).
+
+
+
+Traditional Planning:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book2)', 'move(rob1,kitchen)', 'move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book1)', 'move(rob1,office1)', 'move(rob1,kitchen)', 'move(rob1,library)', 'put_down(rob1,book1)']
+
+ToA Activity:
+['move(rob1,office1)', 'move(rob1,office2)', 'pickup(rob1,book2)'

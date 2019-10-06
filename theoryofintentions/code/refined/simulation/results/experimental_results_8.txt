@@ -1,0 +1,6 @@
+
+Trial Number: 1
+Complexity Level: 8
+Controler type: ZOOMING
+Goal: holds(loc(noteBook1,kitchen),I).
+Initial World State: OrderedDict([('loc(ref1_pen3', 'c73'), ('loc(ref1_noteBook1', 'c5'), ('loc(ref2_noteBook1', 'c5'), ('loc(ref2_noteBook2', 'c12'), ('loc(ref1_noteBook2', 'c12'), ('loc(ref2_noteBook3', 'c77'), ('loc(ref1_noteBook3', 'c77'), ('loc(ref1_noteBook4', 'c58'), ('loc(ref2_noteBook4', 'c58'), ('loc(ref1_book1', 'c15'), ('loc(ref2_book1', 'c15'), ('loc(ref1_book2', 'c77'), ('loc(ref2_book2', 'c77'), ('loc(ref2_book3', 'c35'), ('loc(ref1_book3', 'c35'), ('loc(ref1_book4', 'c66'), ('loc(ref2_book4', 'c66'), ('loc(ref2_cup1', 'c64'), ('loc(ref1_cup1', 'c64'), ('loc(ref2_cup2', 'c78'), ('loc(ref1_cup2', 'c78'), ('loc(ref2_cup3', 'c11'), ('loc(ref1_cup3', 'c11'), ('loc(ref1_cup4', 'c43'), ('loc(ref2_cup4', 'c43'), ('loc(ref1_pen2', 'c37'), ('loc(ref1_pen4', 'c65'), ('loc(ref1_markerPen3', 'c75'), ('loc(ref1_markerPen2', 'c22'), ('loc(ref1_pen1', 'c36'), ('loc(ref1_markerPen1', 'c42'), ('loc(ref1_markerPen4', 'c33'), ('loc(ref2_plate2', 'c45'), ('loc(ref1_plate2', 'c45'), ('loc(ref2_plate3', 'c34'), ('loc(ref1_plate3', 'c34'), ('loc(ref2_plate1', 'c27'), ('loc(ref1_plate1', 'c27'), ('loc(ref2_plate4', 'c73'), ('loc(ref1_plate4', 'c73'), ('in_hand(rob1', 'ref1_pen2'), ('loc(rob1', 'c37')])

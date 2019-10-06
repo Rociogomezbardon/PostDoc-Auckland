@@ -1,0 +1,9 @@
+
+*.exe
+*.log
+*.aux
+*.dvi
+*.pyc
+
+
+

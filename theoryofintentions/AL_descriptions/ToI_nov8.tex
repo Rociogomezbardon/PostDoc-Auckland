@@ -1,0 +1,116 @@
+\documentclass[11pt, oneside]{article}   
+\usepackage{geometry}   
+\geometry{a4paper}                   		
+\usepackage{graphicx}				
+\usepackage{float}
+
+\usepackage{amssymb, amsmath,mathtools}
+\usepackage{wrapfig}
+\newcommand{\stt}[1]{{\small\texttt{#1}}}
+
+\title{Modelling and Testing the Domain Knowledge of an Intentional Robot}
+\author{Rocio Gomez and Heather Riley}
+
+\allowdisplaybreaks
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\begin{document}
+\maketitle
+
+\begin{table*}[t]
+  \centering
+  \small
+  \setlength\arrayrulewidth{0.5pt}
+  \begin{tabular}{|c|c|c|c|c|} \hline
+    \textbf{Complexity level} & \textbf{L1} & \textbf{L2} & \textbf{L3} & \textbf{L4}\\ \hline
+    Average planning time (zooming) & 7.73 & 10.23 & 14.86 & 21.52\\ \hline
+    Average planning time (non-zooming) & 7.92 & 13.96 & 91.67 & 68.22\\ \hline
+    Average planning time (ratio) & 1.03 & 1.36 & 6.59 & 3.52 \\ \hhline{|=|=|=|=|=|}
+    Average execution time (zooming) & 7.12 & 10.97 & 19.36 & 34.69\\ \hline
+    Average execution time (non-zooming) & 7.32 & 14.69 & 93.46 & 67.11 \\ \hline
+    Average execution time (ratio) & 1.03 & 1.34 & 5.4 & 2.28\\  \hhline{|=|=|=|=|=|}
+%     Average Num Abstract Plans zooming & 1 & 1 & 1 & 1\\ \hline
+%     Average Num Abstract Plans non\_zooming & 1 & 1 & &\\ \hline
+%     Average Num Abstract Plans Ratio & & & & \\ \hline
+%     Average Num Abstract Actions zooming & 2.56 & 3.22 & 3.87 & 4.44\\ \hline
+%     Average Num Abstract Actions non\_zooming & 2.56 & 3.22 & &\\ \hline
+%     Average Num Abstract Actions Ratio & & & & \\ \hline
+%     Average Num Refined Plans zooming & 3.01 & 4.26 & 5.63 & 6.56 \\ \hline
+%     Average Num Refined Plans non\_zooming & 3.01 & 4.25 & 4.67 & 0.90 \\ \hline
+%     Average Num Refined Plans Ratio & 1 & 1 & 0.83 & 0.16 \\ \hline
+%     Average Num Refined Actions zooming & 8.41 & 15.0 & 25.4 & 36.16 \\ \hline
+%     Average Num Refined Acti ons non\_zooming & 8.41 & 15.0 & 13.57 & 0 \\ \hline
+%     Average Num Refined Actions Ratio & 1 & 1 & 0.52 & 0 \\ \hline
+    Goals achieved (zooming) & 100\% & 100\% & 100\% & 100\%\\ \hline
+    Goals achieved (non-zooming) & 100\% & 100\% & 0\% & 0\%\\ \hline
+    Unexpected termination (non-zooming) & 0\% & 0\% & 100\% & 100\%\\ \hhline{|=|=|=|=|=|}
+    Average planning time per refined plan (zooming) & 2.57 & 2.4 & 2.64 & 3.28 \\ \hline
+    Average planning time per refined plan (non-zooming) & 2.63 & 3.29 & 19.63 & 76.22 \\ \hline
+  \end{tabular}
+  \caption[Results2]{Experimental results in the RA domain under the four different complexity levels. Values of performance measures (except accuracy) for non-zooming are, wherever appropriate, expressed as a fraction of the values with zooming. Without zooming, there is a significant increase in the time taken for each iteration of fine-resolution planning as the complexity level increases. With zooming, the time taken for each iteration of fine-resolution planning scales well to the higher complexity levels.}
+  \label{tab:sim-zoom-results}
+\end{table*}
+
+Next to evaluate hypothesis $H3$, we ran experiments in the seven
+complexity levels listed in Section~\ref{sec:expres}, with and without
+including zooming, and Table~\ref{tab:sim-zoom-results} summarizes the
+corresponding results. All trials included $\mathcal{ATI}$ for
+coarse-resolution reasoning with the adapted theory of intentions, and
+refined domain representation for fine-resolution reasoning. As
+before, the goal in each experimental trial was to find and move a
+target object to a target location. Similar to the experiments used to
+evaluate $H1$ and $H2$, the values of performance measures without
+zooming are, wherever appropriate, expressed a fraction of the values
+with zooming---see the rows labeled ``ratio'' in
+Table~\ref{tab:sim-zoom-results}, considering the measures of those trials in which the run with zooming completes the run (i.e. it does not get an error due to the complexity).  Given our focus (in these
+experiments) on how planning and execution scale to more complex
+domains, we also report the absolute planning and execution times
+averaged over the different trials. We make the following observations
+from the results obtained:
+\begin{itemize}
+\item The execution time increases with the increase in complexity
+  level, but this increase is more pronounced in the absence of
+  zooming. Note that the execution time reported in each trial is the
+  total execution time over one or more instances of plan execution.
+  These results are expected because the increase in complexity often
+  results in more complex plans comprising many more actions.
+
+\item The planning time increases with the increase in the complexity
+  level, and this increase is more pronounced in the absence of
+  zooming. As with execution time, the planning time in each trial is
+  the total time spent (at both coarse-resolution and fine-resolution)
+  computing plans.  Also, coarse-resolution planning typically takes
+  much less time than fine-resolution planning.
+
+\item To more accurately compute the ability to scale to complex
+  domains, we computed the average planning time per instance of
+  fine-resolution planning. These results are reported in the last two
+  lines in Table~\ref{tab:sim-zoom-results}. These results demonstrate
+  that zooming supports scaling to different complexity levels; in the
+  absence of zooming, planning fails to scale as the level of
+  complexity increases.
+
+\item When $\mathcal{ATI}$ is used with zooming, the desired goal is
+  always achieved successfully. The robot does manage to achieve the
+  goal even without zooming at the lower levels of complexity $L1$, $L2$, most of the trials at complexity level $L3$, but it never achieves the desired goal in the absence of zooming already at level $L4$. This failure is primarily because there are too many options to consider during fine-resolution
+  reasoning in the absence of zooming. Fine-resolution planning is
+  thus also likely to be terminated unexpectedly (i.e., before the
+  goal is achieved) in the absence of zooming;
+  Table~\ref{tab:sim-zoom-results} indicates that such an unexpected
+  termination of plans in the absence of zooming happens in some trials at level $L3$ and in every
+  trial complexity levels $L4$. We did not consider necesary to run paired trials above complexity level $L4$.
+\end{itemize}
+These results provide evidence in support of hypothesis $H3$.
+
+
+ 
+ 
+
+% \medskip
+%\bibliographystyle{abbrv}
+%\bibliography{IntentionalAgents}
+ 
+ 
+ 
+\end{document}

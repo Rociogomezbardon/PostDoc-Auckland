@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Abstraction_1 Sorts
+#book = {book_1, book_2}.
+#cup = {cup_1, cup_2}.
+#object = #book + #cup.
+#room = {office_1, office_2, kitchen, library}.
+#corridor = {corridor_1, corridor_2}.
+#lift = {lift}.
+#passing_space = #lift + #corridor.
+#place = #room + #passing_space.
+#robot = {rob}.
+#thing = #object + #robot.
+#shelf = {bookshelf_1, bookshelf_2, bookshelf_L, cupboard}.
+#inertial_fluent = loc(#thing, #place) + in_hand(#robot, #object) + on_shelf(#object, #shelf) + lift_door_open(#lift, #corridor).
+#defined_fluent =  on_some_shelf(#object).
+#fluent = #inertial_fluent + #defined_fluent.
+#rob_action = move(#robot, #place) + pickup(#robot, #object) + call_lift(#robot, #lift, #corridor) + request_move(#robot, #lift, #corridor) + put_on_shelf(#robot,#object,#shelf).
+#exo_action = exo_move(#object,#place).
+#action = #rob_action + #exo_action.
+%% End of Abstraction_1 Sorts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Abstraction_1 Attributes
+next_to(office_1, library).
+next_to(office_1, corridor_1).
+next_to(corridor_1, library).
+next_to(lift, corridor_1).
+
+next_to(office_2, kitchen).
+next_to(office_2, corridor_2).
+next_to(corridor_2, kitchen).
+next_to(lift, corridor_2).
+
+in_room(bookshelf_1, office_1).
+in_room(bookshelf_2, office_2).
+in_room(bookshelf_L, library).
+in_room(cupboard, kitchen).
+%% End of Abstract Attributes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+max_number_steps_ToI_planning = 29.

@@ -1,0 +1,26 @@
+def formatCoderbyteInput(strArr):
+    return strArr[2:-2].replace(", ",",").split('","')
+
+def WeightedPath(strArr):
+    strArr = formatCoderbyteInput(strArr)
+    N = int(strArr[0])
+    nodes = strArr[1:N+1]
+    connections = [c.split('|') for c in strArr[N+1:]]
+    connections = [[c[0],c[1],int(c[2])] for c in connections]
+    tree = getTree([nodes[0],0],nodes,connections)
+    #tree.sort(key=lambda x: x[1])
+    #lightestPath = tree[0]
+    #return lightestPath
+
+
+def getTree(a,nodes,connections):
+    if [b for b in connections if b[0] == a[0]] == [] : return [b[1],b[2]]
+
+    return [[a[0]+'-'+t[0], a[1] + t[1]] for t in getTree(b[1:],nodes,connections) for b in connections if b[0] == a[0] ]
+
+
+    #print [[c[0]+'-'+b[1],str(int(b[2])+int(c[1]))] for b in connections if [b[0],c[1]] in [c for c in weightedConn]]
+
+
+# keep this function call here
+print WeightedPath(raw_input())
