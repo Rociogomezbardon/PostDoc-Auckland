@@ -1,0 +1,27 @@
+<project default="jar">
+    
+
+<target name="clean">
+    <delete>
+    <fileset dir="." includes="**/*.class"/>
+  </delete>
+  
+    </target>
+
+
+  <target name="compile">
+    <javac srcdir= "src" 
+    excludes="**/tests/"
+   />
+  </target>
+  <target name="jar" depends="compile">
+    <jar destfile="sparc.jar"
+         basedir="src"
+         excludes="**/tests/"
+         includes="**/*.class">
+      <manifest>
+        <attribute name="Main-Class" value="parser.SparcTranslator" />
+      </manifest>
+    </jar>
+  </target>
+</project>
